@@ -13,9 +13,6 @@ It allows students to ask questions directly from NCERT PDF textbooks and get ac
 - Vector DB: ChromaDB
 - Real-time querying
 
-## 📎 Live Demo
-🔗 Public URL (via ngrok):https://contrastable-jimmie-subtrochlear.ngrok-free.dev
-
 ## 🛠 Tech Stack
 | Component | Technology |
 |-----------|------------|
@@ -27,8 +24,16 @@ It allows students to ask questions directly from NCERT PDF textbooks and get ac
 | Agents | CrewAI |
 
 ## 📁 Project Structure
-src/
-agents_src/
-backend_src/
-front_src/
-docs_dir/
+## 📁 Project Structure
+
+| Directory / File | Purpose |
+|------------------|---------|
+| `project-study-buddy/` | Root project directory |
+| `src/` | Application source code |
+| ├── `agents_src/` | CrewAI agents and task orchestration |
+| ├── `backend_src/` | FastAPI backend services |
+| ├── `front_src/` | Streamlit frontend interface |
+| └── `docs_dir/` | NCERT PDFs and document metadata |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Project documentation |
+| `.env` | Environment configuration |
