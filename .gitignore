@@ -1,0 +1,97 @@
+###################################
+# Python general
+###################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+###################################
+# Virtual environments
+###################################
+.venv/
+venv/
+env/
+ENV/
+
+###################################
+# Build / distribution
+###################################
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+###################################
+# IDE / editor files
+###################################
+.vscode/
+.idea/
+*.iml
+
+###################################
+# Jupyter
+###################################
+.ipynb_checkpoints/
+
+###################################
+# OS files
+###################################
+.DS_Store
+Thumbs.db
+
+###################################
+# Cache / tooling
+###################################
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.nox/
+.tox/
+
+###################################
+# Docker
+###################################
+docker-data/
+*.log
+
+###################################
+# Environment files
+###################################
+.env
+.env.local
+.env.production
+.env.development
+
+###################################
+# RAG generated storage
+###################################
+vector_store/
+vector_store/
+
+###################################
+# Uploads and temp extracted docs
+###################################
+tmp/
+temp/
+
+###################################
+# PDF NOTE (keep your documents!)
+###################################
+# DO NOT ignore .pdf — used for RAG ingestion
+# *.pdf        # <— intentionally commented out
+
+###################################
+# Frontend build (if using React build in future)
+###################################
+frontend/dist/
+frontend/node_modules/
+# IDE stuff
+.idea/
+
+# Local vector DB (too big for git)
+doc_vector_store/
