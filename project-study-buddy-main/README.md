@@ -24,7 +24,6 @@ It allows students to ask questions directly from NCERT PDF textbooks and get ac
 | Agents | CrewAI |
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 | Directory / File | Purpose |
 |------------------|---------|
